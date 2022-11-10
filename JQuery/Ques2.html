@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, p").toggleClass("blue");
+  });
+});
+$(document).ready(function() {  
+ $("p").css("background-color", "yellow");  
+ });
+ $(document).ready(function(){
+  $("button").click(function(){
+    $("h2").hide();
+  });
+});
+
+
+
+</script>
+<style>
+.blue {
+  color:blue;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Welcome to Woxsen University</h1>
+<h2>Kakinada</h2>
+
+<p>Hello jquery.</p>
+<p>We will learn various selectors.</p>
+
+<button>Toggle class and id</button>
+
+
+</body>
+</html>
